@@ -2099,10 +2099,12 @@ INSERT INTO respuesta (idPregunta, correcta, descripcion) VALUES (233, false, 'E
 INSERT INTO pregunta (id, descripcion)
 VALUES (234, '¿Por qué es necesario tener un único Product Owner para cada producto? (Elige las tres mejores respuestas)');
 
-INSERT INTO respuesta (idPregunta, correcta, descripcion) VALUES (234, true, 'La responsabilidad del éxito del producto está clara. | Facilita la toma rápida de decisiones y la comunicación efectiva. | Los Desarrolladores saben quién es el responsable final de ordenar el Product Backlog.');
+INSERT INTO respuesta (idPregunta, correcta, descripcion) VALUES (234, true, 'La responsabilidad del éxito del producto está clara.');
 INSERT INTO respuesta (idPregunta, correcta, descripcion) VALUES (234, false, 'Control y poder centralizados.');
 INSERT INTO respuesta (idPregunta, correcta, descripcion) VALUES (234, false, 'Contribuye a las tasas de empleo.');
+INSERT INTO respuesta (idPregunta, correcta, descripcion) VALUES (234, true, 'Facilita la toma rápida de decisiones y la comunicación efectiva.');
 INSERT INTO respuesta (idPregunta, correcta, descripcion) VALUES (234, false, 'Minimizar la necesidad de involucrar a las partes interesadas.');
+INSERT INTO respuesta (idPregunta, correcta, descripcion) VALUES (234, true, 'Los Desarrolladores saben quién es el responsable final de ordenar el Product Backlog.');
 
 --- Pregunta 235
 INSERT INTO pregunta (id, descripcion)
@@ -2181,9 +2183,10 @@ INSERT INTO pregunta (id, descripcion)
 VALUES (243, 'La Daily Scrum es uno de los eventos de Scrum. ¿Cuáles son dos resultados clave que se esperan de la Daily Scrum? (Elige las dos mejores respuestas)');
 
 INSERT INTO respuesta (idPregunta, correcta, descripcion) VALUES (243, false, 'Una actualización sobre las tareas completadas y el trabajo restante para que el Scrum Master planifique las actividades del día siguiente.');
-INSERT INTO respuesta (idPregunta, correcta, descripcion) VALUES (243, true, 'Una comprensión colectiva de las tareas más cruciales que se deben realizar a continuación para lograr el progreso óptimo hacia el Objetivo del Sprint (Sprint Goal). | La identificación de nuevos impedimentos que dificultan las posibilidades de alcanzar el Objetivo del Sprint.');
+INSERT INTO respuesta (idPregunta, correcta, descripcion) VALUES (243, true, 'Una comprensión colectiva de las tareas más cruciales que se deben realizar a continuación para lograr el progreso óptimo hacia el Objetivo del Sprint (Sprint Goal).');
 INSERT INTO respuesta (idPregunta, correcta, descripcion) VALUES (243, false, 'Un informe de progreso para la alta dirección que detalla el trabajo realizado, las tareas a realizar y los obstáculos enfrentados por cada miembro del equipo.');
 INSERT INTO respuesta (idPregunta, correcta, descripcion) VALUES (243, false, 'Un tablero Scrum actualizado para hacer transparente el progreso del Sprint a las partes interesadas.');
+INSERT INTO respuesta (idPregunta, correcta, descripcion) VALUES (243, true, 'La identificación de nuevos impedimentos que dificultan las posibilidades de alcanzar el Objetivo del Sprint.');
 
 --- Pregunta 244
 INSERT INTO pregunta (id, descripcion)
@@ -2450,8 +2453,9 @@ INSERT INTO pregunta (id, descripcion)
 VALUES (275, 'En medio del evento de Planificación del Sprint (Sprint Planning), los Desarrolladores se dan cuenta de que la carga de trabajo supera su capacidad. ¿Qué dos acciones son válidas? (Elige las dos mejores respuestas)');
 
 INSERT INTO respuesta (idPregunta, correcta, descripcion) VALUES (275, false, 'Los Desarrolladores aceptan trabajar horas adicionales durante este Sprint');
-INSERT INTO respuesta (idPregunta, correcta, descripcion) VALUES (275, true, 'Ajustar los elementos seleccionados del Product Backlog. | Los Desarrolladores se aseguran de que el Product Owner esté informado, inician el Sprint y monitorean el progreso.');
+INSERT INTO respuesta (idPregunta, correcta, descripcion) VALUES (275, true, 'Ajustar los elementos seleccionados del Product Backlog.');
 INSERT INTO respuesta (idPregunta, correcta, descripcion) VALUES (275, false, 'Añadir días adicionales a la duración del Sprint.');
+INSERT INTO respuesta (idPregunta, correcta, descripcion) VALUES (275, true, 'Los Desarrolladores se aseguran de que el Product Owner esté informado, inician el Sprint y monitorean el progreso.');
 INSERT INTO respuesta (idPregunta, correcta, descripcion) VALUES (275, false, 'Cancelar el Sprint');
 INSERT INTO respuesta (idPregunta, correcta, descripcion) VALUES (275, false, 'Proceder con el plan original y reclutar más Desarrolladores para el Sprint');
 
@@ -2467,12 +2471,14 @@ INSERT INTO respuesta (idPregunta, correcta, descripcion) VALUES (276, true, 'Re
 
 --- Pregunta 277
 INSERT INTO pregunta (id, descripcion)
-VALUES (277, '¿Qué métricas ayudarían a un Product Owner a confirmar que se está entregando valor? (Elige las dos mejores respuestas)');
+VALUES (277, '¿Qué métricas ayudarían a un Product Owner a confirmar que se está entregando valor? (Elige las tres mejores respuestas)');
 
+INSERT INTO respuesta (idPregunta, correcta, descripcion) VALUES (277, true, 'Satisfacción del usuario');
 INSERT INTO respuesta (idPregunta, correcta, descripcion) VALUES (277, false, 'Horas totales trabajadas por los Desarrolladores');
-INSERT INTO respuesta (idPregunta, correcta, descripcion) VALUES (277, true, 'Tiempo de comercialización (Time to market) | Satisfacción del usuario');
+INSERT INTO respuesta (idPregunta, correcta, descripcion) VALUES (277, true, 'Tiempo de comercialización (Time to market)');
 INSERT INTO respuesta (idPregunta, correcta, descripcion) VALUES (277, false, 'Velocidad');
 INSERT INTO respuesta (idPregunta, correcta, descripcion) VALUES (277, false, 'Alcance implementado');
+INSERT INTO respuesta (idPregunta, correcta, descripcion) VALUES (277, true, 'Tiempo de entrega al mercado');
 
 --- Pregunta 278
 INSERT INTO pregunta (id, descripcion)
@@ -3336,13 +3342,14 @@ INSERT INTO respuesta (idPregunta, correcta, descripcion) VALUES (370, true, 'FA
 
 --- Pregunta 371
 INSERT INTO pregunta (id, descripcion)
-VALUES (371, '¿Qué métricas ayudarían a un Product Owner a confirmar que se está entregando valor? (elige las dos mejores respuestas)');
+VALUES (371, '¿Qué métricas ayudarían a un Product Owner a confirmar que se está entregando valor? (elige las tres mejores respuestas)');
 
 INSERT INTO respuesta (idPregunta, correcta, descripcion) VALUES (371, false, 'Velocidad (Velocity)');
 INSERT INTO respuesta (idPregunta, correcta, descripcion) VALUES (371, false, 'Alcance implementado (Implemented Scope)');
 INSERT INTO respuesta (idPregunta, correcta, descripcion) VALUES (371, false, 'Horas totales trabajadas por los Desarrolladores (Total hours worked by the Developers)');
-INSERT INTO respuesta (idPregunta, correcta, descripcion) VALUES (371, true, 'Tiempo de comercialización / Tiempo de entrega al mercado (Time to market)');
+INSERT INTO respuesta (idPregunta, correcta, descripcion) VALUES (371, true, 'Tiempo de comercialización');
 INSERT INTO respuesta (idPregunta, correcta, descripcion) VALUES (371, true, 'Satisfacción del usuario (User satisfaction)');
+INSERT INTO respuesta (idPregunta, correcta, descripcion) VALUES (371, true, 'Tiempo de entrega al mercado (Time to market)');
 
 --- Pregunta 150
 INSERT INTO pregunta (id, descripcion)
