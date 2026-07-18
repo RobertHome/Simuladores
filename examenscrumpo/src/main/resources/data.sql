@@ -7,7 +7,7 @@ INSERT INTO respuesta (idPregunta, correcta, descripcion) VALUES (1, false, 'Una
 INSERT INTO respuesta (idPregunta, correcta, descripcion) VALUES (1, true, 'Un Product Backlog revisado que define los elementos probables del Product Backlog para el próximo Sprint');
 INSERT INTO respuesta (idPregunta, correcta, descripcion) VALUES (1, false, 'Un entendimiento común del progreso hacia el Objetivo del Sprint y cómo progresa la tendencia hacia la finalización del trabajo en el Sprint Backlog');
 
---- Pregunta 2
+--- Pregunta 2 Maggie
 INSERT INTO pregunta (id, descripcion)
 VALUES (2, '¿Quién participa en la Planificación del Sprint? (elija todas las que correspondan)');
 
