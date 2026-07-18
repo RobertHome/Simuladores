@@ -2499,8 +2499,9 @@ INSERT INTO respuesta (idPregunta, correcta, descripcion) VALUES (279, true, '¿
 INSERT INTO pregunta (id, descripcion)
 VALUES (280, 'A mitad de un proyecto, el Product Owner informa al Scrum Master que una parte interesada clave comenzó a usar el producto y está insatisfecha con el lento rendimiento del sistema. ¿Cuáles son dos opciones efectivas para el Scrum Master? (Elige las dos mejores respuestas)');
 
+INSERT INTO respuesta (idPregunta, correcta, descripcion) VALUES (280, true, 'Guiar al Product Owner sobre cómo discutir esta preocupación con los Desarrolladores');
 INSERT INTO respuesta (idPregunta, correcta, descripcion) VALUES (280, false, 'Retrasar la discusión de esto hasta la Sprint Retrospective');
-INSERT INTO respuesta (idPregunta, correcta, descripcion) VALUES (280, true, 'Asesorar al Product Owner sobre cómo incluir el rendimiento en el Product Backlog y transmitir las preocupaciones de la parte interesada a los Desarrolladores | Guiar al Product Owner sobre cómo discutir esta preocupación con los Desarrolladores');
+INSERT INTO respuesta (idPregunta, correcta, descripcion) VALUES (280, true, 'Asesorar al Product Owner sobre cómo incluir el rendimiento en el Product Backlog y transmitir las preocupaciones de la parte interesada a los Desarrolladores');
 INSERT INTO respuesta (idPregunta, correcta, descripcion) VALUES (280, false, 'Extender el Sprint actual para abordar los problemas de rendimiento e identificar quién es el responsable del problema de rendimiento y asegurarse de que la persona sea castigada.');
 INSERT INTO respuesta (idPregunta, correcta, descripcion) VALUES (280, false, 'Aclarar al Product Owner que depende de los Desarrolladores establecer estándares de rendimiento aceptables');
 INSERT INTO respuesta (idPregunta, correcta, descripcion) VALUES (280, false, 'Tomar medidas inmediatas y solucionar el problema');
@@ -2683,10 +2684,11 @@ INSERT INTO pregunta (id, descripcion)
 VALUES (300, 'A mitad de un proyecto, el Product Owner le informa al Scrum Master que un interesado (stakeholder) clave ha comenzado a usar el producto y está insatisfecho con el lento rendimiento del sistema. ¿Cuáles son dos opciones efectivas para el Scrum Master? (elige las dos mejores respuestas)');
 
 INSERT INTO respuesta (idPregunta, correcta, descripcion) VALUES (300, false, 'Extender el Sprint current para abordar los problemas de rendimiento e identificar quién es el responsable del problema de rendimiento y asegurarse de que esa persona sea castigada.');
-INSERT INTO respuesta (idPregunta, correcta, descripcion) VALUES (300, true, 'Guiar (Coach) al Product Owner sobre cómo incluir el rendimiento en el Product Backlog y transmitir las preocupaciones del interesado a los Desarrolladores | Guiar al Product Owner sobre cómo discutir esta preocupación con los Desarrolladores');
+INSERT INTO respuesta (idPregunta, correcta, descripcion) VALUES (300, true, 'Guiar (Coach) al Product Owner sobre cómo incluir el rendimiento en el Product Backlog y transmitir las preocupaciones del interesado a los Desarrolladores');
 INSERT INTO respuesta (idPregunta, correcta, descripcion) VALUES (300, false, 'Aclarar al Product Owner que depende de los Desarrolladores establecer estándares de rendimiento aceptables');
 INSERT INTO respuesta (idPregunta, correcta, descripcion) VALUES (300, false, 'Tomar medidas inmediatas y solucionar el problema');
 INSERT INTO respuesta (idPregunta, correcta, descripcion) VALUES (300, false, 'Retrasar la discusión de esto hasta la Retrospectiva del Sprint');
+INSERT INTO respuesta (idPregunta, correcta, descripcion) VALUES (300, true, 'Guiar al Product Owner sobre cómo discutir esta preocupación con los Desarrolladores');
 
 --- Pregunta 301
 INSERT INTO pregunta (id, descripcion)
