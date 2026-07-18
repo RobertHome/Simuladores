@@ -23,7 +23,7 @@ public class GestionaPrguntas {
 		PreguntaRepository preguntaRepository = new PreguntaRepository(configuration);
 		List<Pregunta> prguntas = new ArrayList<>();
 
-		prguntas.addAll(prioridadPregunta(preguntaRepository.listarTodo(), 80, configuration));
+		prguntas.addAll(prioridadPregunta(preguntaRepository.listarTodo(), 10, configuration));
 
 		return prguntas;
 	}
